@@ -16,7 +16,7 @@ public:
     //设置属性值
     void set_blood(int blood_=100){blood=blood_;}
     void set_attack(int attack_=10){attack=attack_;}
-    void set_defense(int defense_=10){defense=defense_;}
+    void set_defense(int defense_=20){defense=defense_;}
     //增加属性值（增加装备或技能点时）
     void add_blood(int addblood){blood+=addblood;}
     void add_attack(int addattack){attack+=addattack;}
